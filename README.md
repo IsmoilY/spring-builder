@@ -1,3 +1,3 @@
 # spring-builder
 
-A project witch demonstrates inner workings of **Spring**
+A project which demonstrates inner workings of **Spring**
