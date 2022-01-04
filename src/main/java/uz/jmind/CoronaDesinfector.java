@@ -1,6 +1,5 @@
 package uz.jmind;
 
-@Deprecated
 public class CoronaDesinfector {
 
     @InjectByType
@@ -8,6 +7,7 @@ public class CoronaDesinfector {
     @InjectByType
     private Policeman policeman;
 
+    @Deprecated
     public void start(Room room) {
         //todo : notify everyone about desinfection and ask to leave
         announcer.announce("Desinfection is about to start, please leave the room");

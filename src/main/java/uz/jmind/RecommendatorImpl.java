@@ -1,7 +1,6 @@
 package uz.jmind;
 
 @Singleton
-@Deprecated
 public class RecommendatorImpl implements Recommendator {
 
     @InjectProperty("wisky")
@@ -15,6 +14,7 @@ public class RecommendatorImpl implements Recommendator {
     }
 
     @Override
+    @Deprecated
     public void recommend() {
         System.out.println("Drink **" + drink + "** to get over from covid-2019");
     }
