@@ -2,6 +2,7 @@ package uz.jmind;
 
 import javax.annotation.PostConstruct;
 
+@Singleton
 public class AngryPoliceman implements Policeman {
 
     @InjectByType

@@ -1,5 +1,7 @@
 package uz.jmind;
 
+@Singleton
+@Lazy
 public class ConsoleAnnouncer implements Announcer {
 
     @InjectByType
